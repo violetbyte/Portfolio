@@ -86,12 +86,11 @@ nav {
 .profile-img {
   width: 260px;
   height: 260px;
-  border-radius: 50%;
+  display: block;
+  opacity: 1;
+  visibility: visible;
   object-fit: cover;
-  border: 3px solid #6cffb2;
-  box-shadow: 0 0 35px rgba(108,255,178,0.55);
-  filter: none;
-  transition: transform 0.3s ease;
+  border-radius: 50%;
 }
 
 .profile-img:hover {
